@@ -21,6 +21,12 @@
  * @see https://developer.wordpress.org/reference/functions/register_block_type/
  */
 function create_block_gutenberg_custom_blocks_block_init() {
-	register_block_type( __DIR__ . '/build' );
+	$blocks = array(
+		'custom-block/',
+	);
+
+	foreach( $blocks as $block ) {
+		register_block_type( plugin_dir_path( __FILE__ ) . 'blocks/' . $block );
+	}
 }
 add_action( 'init', 'create_block_gutenberg_custom_blocks_block_init' );
