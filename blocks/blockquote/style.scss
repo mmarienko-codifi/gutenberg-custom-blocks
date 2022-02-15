@@ -1,5 +1,41 @@
-.wp-block-gutenberg-custom-blocks-blockquote {
-	background-color: #21759b;
-	color: #fff;
-	padding: 2px;
+.wp-block-gutenberg-custom-blocks-blockquote .quote {
+	padding: 25px 30px;
+	border: 3px solid #cfcfcf;
+	max-width: 550px;
+
+	&__content {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	&__icon {
+		width: 35px;
+		height: 35px;
+		fill: #840ad6;
+	}
+
+	&__text {
+		padding-left: 15px;
+		color: #464646;
+		font-weight: 500;
+	}
+
+	&__bottom {
+		display: flex;
+		align-items: center;
+		padding-top: 30px;
+	}
+
+	&__avatar {
+		width: 35px;
+		height: 35px !important;
+		fill: #840ad6;
+		border-radius: 50%;
+	}
+
+	&__author {
+		padding-left: 10px;
+		font-size: 15px;
+		color: #9436d3;
+	}
 }

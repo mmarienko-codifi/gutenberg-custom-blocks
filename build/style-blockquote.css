@@ -1,16 +1,40 @@
 /*!*****************************************************************************************************************************************************************************************************************************************************!*\
   !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./blocks/blockquote/style.scss ***!
   \*****************************************************************************************************************************************************************************************************************************************************/
-/**
- * The following styles get applied both on the front of your site
- * and in the editor.
- *
- * Replace them with your own styles or remove the file completely.
- */
-.wp-block-gutenberg-custom-blocks-blockquote {
-  background-color: #21759b;
-  color: #fff;
-  padding: 2px;
+.wp-block-gutenberg-custom-blocks-blockquote .quote {
+  padding: 25px 30px;
+  border: 3px solid #cfcfcf;
+  max-width: 550px;
+}
+.wp-block-gutenberg-custom-blocks-blockquote .quote__content {
+  display: flex;
+  align-items: flex-start;
+}
+.wp-block-gutenberg-custom-blocks-blockquote .quote__icon {
+  width: 35px;
+  height: 35px;
+  fill: #840ad6;
+}
+.wp-block-gutenberg-custom-blocks-blockquote .quote__text {
+  padding-left: 15px;
+  color: #464646;
+  font-weight: 500;
+}
+.wp-block-gutenberg-custom-blocks-blockquote .quote__bottom {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+.wp-block-gutenberg-custom-blocks-blockquote .quote__avatar {
+  width: 35px;
+  height: 35px !important;
+  fill: #840ad6;
+  border-radius: 50%;
+}
+.wp-block-gutenberg-custom-blocks-blockquote .quote__author {
+  padding-left: 10px;
+  font-size: 15px;
+  color: #9436d3;
 }
 
 /*# sourceMappingURL=style-blockquote.css.map*/
