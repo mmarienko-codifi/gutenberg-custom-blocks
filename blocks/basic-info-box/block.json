@@ -1,0 +1,17 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "gutenberg-custom-blocks/basic-info-box",
+	"version": "0.1.0",
+	"title": "Basic Info Box",
+	"category": "widgets",
+	"icon": "info",
+	"description": "https://codifi.atlassian.net/browse/BGCMMSHPFY-1468",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "gutenberg-custom-blocks",
+	"editorScript": "file:../../build/basic-info-box.js",
+	"editorStyle": "file:../../build/basic-info-box.css",
+	"style": "file:../../build/style-basic-info-box.css"
+}
