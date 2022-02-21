@@ -20,10 +20,20 @@
   color: #464646;
   font-weight: 500;
 }
+@media (max-width: 767.98px) {
+  .wp-block-gutenberg-custom-blocks-blockquote .quote__text {
+    font-size: 16px;
+  }
+}
 .wp-block-gutenberg-custom-blocks-blockquote .quote__bottom {
   display: flex;
   align-items: center;
   padding-top: 30px;
+}
+@media (max-width: 767.98px) {
+  .wp-block-gutenberg-custom-blocks-blockquote .quote__bottom {
+    padding-top: 15px;
+  }
 }
 .wp-block-gutenberg-custom-blocks-blockquote .quote__avatar {
   width: 35px;
