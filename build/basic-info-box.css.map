@@ -1,0 +1,1 @@
+{"version":3,"file":"basic-info-box.css","mappings":";;;AAAA;EACC;AACD,C","sources":["webpack://gutenberg-custom-blocks/./blocks/basic-info-box/editor.scss"],"sourcesContent":[".wp-block-gutenberg-custom-blocks-basic-info-box {\n\tborder: 1px dotted #f00;\n}\n"],"names":[],"sourceRoot":""}
