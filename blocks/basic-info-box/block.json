@@ -5,7 +5,7 @@
 	"version": "0.1.0",
 	"title": "Basic info box",
 	"category": "widgets",
-	"icon": "smiley",
+	"icon": "info",
 	"description": "Example block written with ESNext standard and JSX support – build step required.",
 	"supports": {
 		"html": false
@@ -13,5 +13,10 @@
 	"textdomain": "gutenberg-custom-blocks",
 	"editorScript": "file:../../build/basic-info-box.js",
 	"editorStyle": "file:../../build/basic-info-box.css",
-	"style": "file:../../build/style-basic-info-box.css"
+	"style": "file:../../build/style-basic-info-box.css",
+	"attributes": {
+		"content": {
+			"type": "string"
+		}
+	}
 }

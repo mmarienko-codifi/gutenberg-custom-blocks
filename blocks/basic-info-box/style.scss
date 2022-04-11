@@ -1,2 +1,11 @@
-.wp-block-gutenberg-custom-blocks-basic-info-box {
+.wp-block-gutenberg-custom-blocks-basic-info-box .info {
+	border: 13px solid #fff;
+	border-radius: 10px;
+	background-color: #fff;
+
+	&__content {
+		padding: 25px 30px;
+		border-radius: calc(13px - 10px);
+		background-color: rgb(195, 226, 255);
+	}
 }
