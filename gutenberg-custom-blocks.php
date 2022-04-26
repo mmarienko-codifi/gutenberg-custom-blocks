@@ -23,6 +23,7 @@
 function create_block_gutenberg_custom_blocks_block_init() {
 	$blocks = array(
 		'custom-block/',
+		'blockquote'
 	);
 
 	foreach( $blocks as $block ) {

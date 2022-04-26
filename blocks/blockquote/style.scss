@@ -1,0 +1,51 @@
+.wp-block-gutenberg-custom-blocks-blockquote .quote {
+	padding: 25px 30px;
+	border: 10px solid #f3f3f3;
+	box-shadow: inset 0px 0px 0px 3px #cfcfcf;
+	background-color: #fff;
+
+	&__content {
+		display: flex;
+		align-items: flex-start;
+	}
+
+	&__icon {
+		width: 35px;
+		height: 35px;
+		fill: #840ad6;
+	}
+
+	&__text {
+		padding-left: 15px;
+		color: #464646;
+		font-weight: 600;
+		font-size: 18px;
+
+		@media (max-width: 767.98px) {
+			font-size: 16px;
+		}
+	}
+
+	&__bottom {
+		display: flex;
+		align-items: center;
+		padding-top: 30px;
+
+		@media (max-width: 767.98px) {
+			padding-top: 15px;
+		}
+	}
+
+	&__avatar {
+		width: 35px;
+		height: 35px !important;
+		fill: #840ad6;
+		border-radius: 50%;
+	}
+
+	&__author {
+		padding-left: 10px;
+		font-size: 15px;
+		color: #9436d3;
+	}
+}

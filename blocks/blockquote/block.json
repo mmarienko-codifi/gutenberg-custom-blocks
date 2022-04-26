@@ -1,0 +1,31 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "gutenberg-custom-blocks/blockquote",
+	"version": "1.0.0",
+	"title": "Blockquote",
+	"category": "widgets",
+	"icon": "editor-quote",
+	"description": "https://codifi.atlassian.net/browse/BGCMMSHPFY-1469",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "gutenberg-custom-blocks",
+	"editorScript": "file:../../build/blockquote.js",
+	"editorStyle": "file:../../build/blockquote.css",
+	"style": "file:../../build/style-blockquote.css",
+	"attributes": {
+		"text": {
+			"type": "string"
+		},
+		"author": {
+			"type": "string"
+		},
+		"alt": {
+			"type": "string"
+		},
+		"url": {
+			"type": "string"
+		}
+	}
+}
